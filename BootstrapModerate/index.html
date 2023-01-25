@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Moderate</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- linking bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- linking google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Orbitron:wght@500&family=Space+Grotesk:wght@500&family=Vesper+Libre&display=swap"
+    rel="stylesheet">
+  <!-- linking font awesome cdn -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+<body>
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+      <div class="container-fluid">
+        <img src="images/coc.png" width="100px" height="50px" src="coc.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#join" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Learn More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://clashofclans.fandom.com/wiki/Category:Troops">Troops</a></li>
+                <li><a class="dropdown-item" href="https://clashofclans.fandom.com/wiki/Elixir_Spells">Spells</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="https://clashofclans.fandom.com/wiki/Heroes">Heroes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#supercell">Play Now</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#join">Join</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#support">Supercell Support</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-image" data-bs-ride="carousel"
+      style="background-color: rgb(33,37,41);">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/bg2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Daily Loot</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg5.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>War Base</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Halloween Base</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </header>
+  <section class="about my-5" id="about">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h1 data-aos="fade-right" data-aos-offset="200">About <span class="text-primary">Clash of Clans</span></h1>
+        <hr / class="w-25 m-auto">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="flip-left" data-aos-offset="200">
+          <h1>What do you <span class="text-primary">want to know?</span></h1>
+
+          <p class="p-2">
+            The game is set in a fantasy-themed persistent world where the player is a chief of a village. Clash of
+            Clans tasks players to build their own village using the resources gained from attacking other player's
+            villages with troops; earning rewards, buying them with medals or by producing them at their own village.
+          </p>
+          <a class="btn btn-dark mb-5" href="https://en.wikipedia.org/wiki/Clash_of_Clans" target="_blank">More about
+            clash of clans</a>
+          <!-- Accordion -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Home Village
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>The Home Village is at the core of Clash of Clans</strong> and our goal is to continue to make
+                  every facet of Clash as exciting and dynamic as possible. In this update we've got some major changes
+                  that will impact training your Army and upgrading your Home Village.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Builder Base
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  It's special ability, Electric Hammer,
+                  <strong>increases attack damage for the next three attacks and regenerates its health.</strong>It can
+                  be used as long as the Battle Machine has not been destroyed. Overall, Builder Base is another fun
+                  addition to the game.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Clan Capital
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The Clan Capital is
+                  <strong>where the Clan can build together and battle together!</strong>Who can play? You can start
+                  playing the Clan Capital at Town Hall 6. Clans need to be XP level 2 to unlock the Clan Capital.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end" data-aos="flip-right" data-aos-offset="200">
+          <img src="images/witch.png " width="100%" title="Witch">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="supercell py-5 bg-light" id="supercell">
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 data-aos="flip-left" data-aos-offset="200">Our Another <span class="text-primary">Popular Games</span></h1>
+        <hr / class="w-25 m-auto">
+      </div>
+
+      <div class="row" data-aos="zoom-out-down" data-aos-offset="200">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Clash Royale</strong></h4>
+              <p class="card-text">Clash Royale is a free-to-play real-time strategy video game developed and published
+                by Supercell. The game combines elements from collectible card games, tower defense, and multiplayer
+                online battle arena. The game was released globally on March 2, 2016.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.supercell.clashroyale&hl=en_IN&gl=US&pli=1"
+                class="btn btn-primary" target="_blank">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Boom Beach</strong></h4>
+              <p class="card-text">Boom Beach is a strategy game that combines attacks on and from other players with
+                attacks against computer-generated (NPC) bases. The game's storyline is set in a tropical archipelago
+                with the player on an island with defenses and troops.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.supercell.boombeach&hl=en_IN&gl=US"
+                class="btn btn-primary" target="_blank">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Brawl Stars</strong></h4>
+              <p class="card-text">Brawl Stars is a multiplayer online battle arena and third-person hero shooter video
+                game developed and published by the Finnish video game company Supercell. It was released worldwide on
+                December 12, 2018, on iOS and Android.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=en_IN&gl=US"
+                class="btn btn-primary" target="_blank">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5" data-aos="zoom-out-up" data-aos-offset="200">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Hay Day</strong></h4>
+              <p class="card-text">Hay Day is a freemium mobile farming game developed and published by Supercell. Hay
+                Day was released for iOS on 21 June 2012 and Android on 20 November 2013. According to a 2013 report. It
+                is a old popular supercell game.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.supercell.hayday&hl=en_IN&gl=US"
+                class="btn btn-primary" target="_blank">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Clash Mini</strong></h4>
+              <p class="card-text">Mini madness descends on the Clash Universe! In this game of choices, duel and Rumble
+                in a fun, strategy-packed board game. Collect, Summon and Upgrade your army of Minis in this exciting
+                real-time auto battler.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.supercell.clashmini&hl=en_IN&gl=US"
+                class="btn btn-primary" target="_blank">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title"><strong>Rush Wars</strong></h4>
+              <p class="card-text">Rush Wars is a casual game for everyone to enjoy but provides the depth and challenge
+                competitive players desire as they rise through the ranks. No hours wasted on designing and changing
+                defensive bases, no long wait times to prepare your troops for battle.</p>
+              <a href="https://play.google.com/store/apps/details?id=com.supercell.rush&hl=en_IN&gl=US"
+                class="btn btn-primary" target="_blank">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team my-5 text-center" id="support">
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 data-aos="zoom-out-up" data-aos-offset="200">Supercell <span class="text-primary">Founders</span></h1>
+        <hr / class="w-25 m-auto">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left" data-aos-offset="200">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/Paananen.jpeg" class="img-fluid rounded-circle border border-primary p-2">
+              <h5 class="card-title mt-5"><strong>Ilkka Paananen</strong></h5>
+              <p class="card-text">Ilkka Paananen, is the CEO and co-founder of Supercell, the Helsinki-based mobile
+                games developer behind Clash of Clans, Hay Day, Boom Beach, Clash Royale and Brawl Stars.</p>
+              <a href="https://fi.linkedin.com/in/ilkkapaananen" class="btn btn-primary" target="_blank">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="zoom-out-up" data-aos-offset="200">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/Kodisoja.jpg" class="img-fluid rounded-circle border border-primary p-2">
+              <h5 class="card-title mt-5"><strong>Mikko Kodisoja</strong></h5>
+              <p class="card-text">Mikko Kodisoja has made 3 investments. Their latest investment was Seed Round -
+                Digital Nature on Nov 25, 2021, when Digital Nature raised €1.5M. Popular as a supercell founder</p>
+              <a href="https://fi.linkedin.com/in/mikkokodisoja" class="btn btn-primary" target="_blank">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left" data-aos-offset="200">
+          <div class="card">
+            <div class="card-body">
+              <img src="images/PetriStyrman.jpg" class="img-fluid rounded-circle border border-primary p-2">
+              <h5 class="card-title mt-5"><strong>Petri Styrman</strong></h5>
+              <p class="card-text">Petri Styrman is the Co - Founder & Lead Artist of Supercell. Spent the last 10 years
+                in creating and the leading the creation of art for casual games for mobile phones and the web.</p>
+              <a href="https://fi.linkedin.com/in/petri-styrman-5773634" class="btn btn-primary" target="_blank">Read
+                more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left" data-aos-offset="200">
+          <div class="card mt-5">
+            <div class="card-body">
+              <img src="images/LassiLeppinen.jpg" class="img-fluid rounded-circle border border-primary p-2">
+              <h5 class="card-title mt-5"><strong>Lassi Leppinen</strong></h5>
+              <p class="card-text">Lassi Leppinen is the Co - Founder & Product Lead of Supercell. The gameplay
+                programming guru! Lassi has shipped more than 30 commercial games for platforms ranging from already
+                (thankfully) forgotten J2ME.</p>
+              <a href="https://fi.linkedin.com/in/lassileppinen" class="btn btn-primary" target="_blank">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="zoom-out-up" data-aos-offset="200">
+          <div class="card mt-5">
+            <div class="card-body">
+              <img src="images/visfrosten.jpg" class="img-fluid rounded-circle border border-primary p-2">
+              <h5 class="card-title mt-5"><strong>Visa Forsten</strong></h5>
+              <p class="card-text">Visa Forsten is the Co - Founder & Lead Programmer of Supercell. In search for those
+                perfectly optimized graphics routines since 1996. Seriously, how many people can claim that they have
+                written a 3D engine</p>
+              <a href="https://www.crunchbase.com/person/visa-forsten" class="btn btn-primary" target="_blank">Read
+                more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12" data-aos="flip-left" data-aos-offset="200">
+          <div class="card mt-5">
+            <div class="card-body">
+              <img src="images/NikoDerome.jpg" class="img-fluid rounded-circle border border-primary p-2">
+              <h5 class="card-title mt-5"><strong>Niko Derome</strong></h5>
+              <p class="card-text">Niko Derome is the Co - Founder & Server Architect at Supercell. A veteran on
+                designing large-scale game servers, Niko has spent the last 15 years in developing real time and
+                asynchronous systems</p>
+              <a href="https://fi.linkedin.com/in/niko-derome-53630" class="btn btn-primary" target="_blank">Read
+                more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact py-5" id="join">
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 data-aos="flip-up">Join <span class="text-primary">Us</span></h1>
+        <hr / class="w-25 m-auto">
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-out-right">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4" data-aos="zoom-out-left">
+          <img src="images/supercell.png" class="img-fluid p-2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid bg-secondary text-white p-2 text-center fs-4">Developed by Soumodip</div>
+
+  <!-- AOS Library -->
+
+  <!-- linking bootstrap javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

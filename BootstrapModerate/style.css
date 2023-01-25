@@ -1,0 +1,27 @@
+*{
+    font-family: 'Lobster', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+}
+.carousel-item img{
+    width: 50%;
+    height: 80vh;
+}
+.card-body img{
+    min-width: 50%;
+    max-height: 200px;
+}
+@media screen and (max-width: 1920px){
+    .carousel-inner{
+        position:relative;
+        width: 100%;
+        padding: 0 15%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .carousel-inner{
+        position:relative;
+        width: 100%;
+        padding:0;
+    }
+}
